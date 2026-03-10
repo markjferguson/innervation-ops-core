@@ -1,0 +1,6 @@
+# OC_RESPONSE_DIRECTIVE_011
+
+## CONFIRMATION
+My objective for DIRECTIVE_011 is to create a new, public GitHub repository named `innervation-ops-core` under the `markjferguson` account. Once created, I must clone it to a new local directory (`~/innervation-ops-core`) and migrate specific operational components from the current testing repository (`~/T-E-Branch-clean`). Specifically, I need to copy over the entire `ops/` directory and the `scripts/directive_bridge.py` script. 
+
+After copying, I must edit the new `directive_bridge.py` file to update its internal `REPO` path so that it points to the new `~/innervation-ops-core` repository instead of the old one. I also need to create a `README.md` file in the new repository explaining its purpose, owner, structure, and noting the migration. Finally, I must perform an initial commit of these files and push them to the `main` branch of the newly created `innervation-ops-core` GitHub repository. I am strictly forbidden from modifying the existing `T-E-Branch`, touching any bot/Teams service files, or pushing to the old repo's `main` branch.
